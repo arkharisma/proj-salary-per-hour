@@ -3,6 +3,8 @@
 This project is for calculating salary per hour using Python and SQL scripts. Below is an overview of the folder structure.
 
 # Folder Structure
+```bash
+.
 ├── data/ 
 │ └── employees.csv # CSV files for employees data 
 │ └── timesheets.csv # CSV files for timesheets data 
@@ -12,6 +14,7 @@ This project is for calculating salary per hour using Python and SQL scripts. Be
 │ ├── load_csv_to_table.sql # SQL script to create schema and load data to tables
 │ └── etl_calculate_salary_per_hour_per_branch.sql # SQL script to calculate salary per hour and overwrite data to table
 └── .env.example # Environment file to save Database credentials
+```
 
 # Details
 - Remove duplicate data in employees data using rank data based on max salary that groupped by employe_id, branch_id, join_date and resign_date
